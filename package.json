@@ -1,0 +1,16 @@
+{
+  "name": "add_server_to_weekend_1_challenge",
+  "version": "1.0.0",
+  "description": "\"move weekend1 challenge into a node server setup\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node server/server.js"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

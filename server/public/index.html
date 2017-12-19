@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/vendors/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="/scripts/client.js" charset="utf-8"></script>
+    <title>Weekend1: Salary Calculator</title>
+  </head>
+  <body>
+
+    <header> Salary Calculator</header>
+
+    <div id="form">
+      <form>
+        <p class="inputLabel">First name:<p>
+        <input type="text" name="firstname" id="firstName" placeholder="First Name" class="inputText" value="">
+
+        <p class="inputLabel">Last name:</p>
+        <input type="text" name="lastname" id=lastName placeholder="Last Name" class="inputText" value="">
+
+        <p class="inputLabel">ID Number:</p>
+        <input type="text" name="idNum" id="idNum" placeholder="ID Number" class="inputText" value="">
+
+        <p class="inputLabel">Job Title:</p>
+        <input type="text" name="jobtitle" id="jobTitle" placeholder="Job Title Here" class="inputText" value="">
+
+        <p class="inputLabel">Annual Salary:</p>
+        <input type="number" name="annualsalary" id="annualSalary" placeholder="Salary Here" class="inputText" value="">
+
+      </form>
+    <button type="button" name="submit" id="submit">Submit</button>
+    <h2>Monthly Total Cost:</h2>
+    <h2 id="showCost"></h2>
+    <h2>Total Annual Salary Cost:</h2>
+    <h2 id="totalAnnual"></h2>
+    </div>
+
+    <table>
+      <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID Number</th>
+            <th>Job Title</th>
+            <th>Annual Salary</th>
+            <th>Monthly Cost</th>
+            <th>Delete</th>
+          </tr>
+      </thead>
+        <tbody id="tableBody">
+          <!--- intentionally blank --->
+        </tbody>
+
+    </table>
+
+
+
+
+  </body>
+</html>
